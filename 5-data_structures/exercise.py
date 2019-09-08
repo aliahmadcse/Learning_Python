@@ -11,12 +11,12 @@ for item in sen:
 sorted_dict = sorted(char_number.items(),
                      key=lambda item: item[1], reverse=True)
 
-pprint(sorted_dict[0],width=10)
+pprint(sorted_dict[0], width=10)
 
 
-# def func(n):
-#     div = n/8
-#     return n-math.pow(2, div) > 0
+def func(n):
+    div = n/8
+    return n-math.pow(2, div) > 0
 
 
-# print(func(1))
+print(func(1))
